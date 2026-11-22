@@ -1,3 +1,5 @@
+[English](README.md) · [中文简介](README.zh-CN.md)
+
 # VGG16 Defect Detection for 3D-Printed Cylinders
 
 IDAT7215 Group 8 · Study One · 271 original images
