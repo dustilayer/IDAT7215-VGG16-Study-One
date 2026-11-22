@@ -1,0 +1,36 @@
+{
+  "manifest_sha256": "7f60173b80913c6d01b9c922bf9844768638c515e7146b6fa49d5066c575dace",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 50,
+  "batch_size": 30,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "defect_class": 1,
+  "threshold": 0.5,
+  "selection_rule": "lowest mean final validation binary cross-entropy",
+  "selected_variant": "keras_gap",
+  "validation_losses": {
+    "paper": [
+      0.091989666223526,
+      0.0867062658071518,
+      0.09571362286806107
+    ],
+    "keras": [
+      0.05677052214741707,
+      0.04834403842687607,
+      0.04523155465722084
+    ],
+    "keras_gap": [
+      0.009020841680467129,
+      0.005452338606119156,
+      0.006389308720827103
+    ]
+  },
+  "tensorflow": "2.19.1",
+  "keras": "3.15.1",
+  "opencv": "4.11.0"
+}
